@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-function Simple() {
+const Simple = () => {
   return (
     <motion.div
       className="bg-red-500 border w-32 h-32 rounded-full"
@@ -8,6 +8,6 @@ function Simple() {
       transition={{ duration: 1 }}
     />
   );
-}
+};
 
 export default Simple;
